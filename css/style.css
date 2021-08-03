@@ -4,7 +4,8 @@
 }
 
 body {
-	background: url('now.jpg');
+/* 	background: url('now.jpg'); */
+	background: #f00;
 	background-size: 120% 120%;
 	animation: gradientBG 10s ease infinite;
 	display: flex;
@@ -13,7 +14,7 @@ body {
 	min-height: 100vh;
 	overflow: hidden;
 }
-@keyframes gradientBG {
+/* @keyframes gradientBG {
 	0% {
 		background-position: 0% 50%;
 	}
@@ -23,7 +24,7 @@ body {
 	100% {
 		background-position: 0% 50%;
 	}
-}
+} */
 
 .clock {
 	width: 300px;
