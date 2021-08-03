@@ -1,6 +1,6 @@
 *, *::after, *::before {
 	box-sizing: border-box;
-	font-family: sans-serif;
+	font-family: Gotham Rounded, sans-serif;
 }
 
 body {
