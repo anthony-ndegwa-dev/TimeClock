@@ -30,7 +30,7 @@ body {
 	height: 300px;
 	border-radius: 50%;
 	border: 2px solid #fff;
-	position: absolute;
+	position: relative;
 }
 
 .clock .number {
