@@ -5,8 +5,12 @@
 
 body {
 	background: url('now.jpg');
-	background-size: 120% 120%;
+	background-size: 112% 112%;
 	animation: gradientBG 10s ease infinite;
+	overflow: hidden;
+	margin-bottom: -10px;
+}
+section {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -100,4 +104,16 @@ body {
 	width: 10px;
 	height: 35%;
 	background-color: #002;
+}
+#date {
+	color: #fff;
+}
+
+header {
+	background: transparent;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
 }
