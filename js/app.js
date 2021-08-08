@@ -1,8 +1,15 @@
 setInterval(setClock, 1000)
 
-const hourHand = document.querySelector('[data-hour-hand]')
-const minuteHand = document.querySelector('[data-minute-hand]')
-const secondHand = document.querySelector('[data-second-hand]')
+const hourHand = document.querySelector('[data-hour-hand]');
+const minuteHand = document.querySelector('[data-minute-hand]');
+const secondHand = document.querySelector('[data-second-hand]');
+const dateElement = document.getElementById("date");
+
+// Show todays date.
+const options = {weekday:"long", month:"short", day:"numeric"};
+const today = new Date();
+
+dateElement.innerHTML = today.toLocaleDateString("en-US", options);
 
 function setClock() {
 	const currentDate = new Date()
