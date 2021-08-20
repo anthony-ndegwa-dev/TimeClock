@@ -34,7 +34,6 @@ section {
 	border: 2px solid #fff;
 	position: relative;
 }
-
 .clock .number {
 	--rotation: 0;
 	position: absolute;
