@@ -44,7 +44,6 @@ section {
 	font-size: 1.5rem;
 	color: #fff;
 }
-
 .clock .number1 { --rotation: 30deg; }
 .clock .number2 { --rotation: 60deg; }
 .clock .number3 { --rotation: 90deg; }
